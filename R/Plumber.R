@@ -13,6 +13,6 @@ cat("[INFO] Starting API ... \n")
 function(msg = "none"){
 
   cat("[API] New call, input msg =", msg, "\n")
-  list("length" = length(msg))
+  list("length" = nchar(msg))
 
 }
