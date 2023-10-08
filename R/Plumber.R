@@ -1,18 +1,18 @@
 
-
+# -- load package
 library(plumber)
 
-cat("-- Starting API -- \n")
+cat("[INFO] Starting API ... \n")
 
-#* @apiTitle First API
-#* @apiDescription Return the msg
+#* @apiTitle R Plumber API
+#* @apiDescription Returns the length of the input
 
 #* @param msg The message
-#* @get /test
+#* @get /length
 
-function(msg = "empty"){
+function(msg = "none"){
 
-  cat("API Call -- msg =", msg, "\n")
-  list("message" = msg)
+  cat("[API] New call, input msg =", msg, "\n")
+  list("length" = length(msg))
 
 }
