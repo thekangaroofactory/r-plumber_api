@@ -20,10 +20,10 @@ curl -X GET http://127.0.0.1:8000/length?msg=test
 
    + From the commad line (remote Docker image)
 ```
-curl -X GET https://r-plumer-api.onrender.com/length?msg=test-render
+curl -X GET https://r-plumber-api.onrender.com/length?msg=test-render
 ```
 
    + From the browser (remote Docker image)
 ```
-https://r-plumer-api.onrender.com/length?msg=from_browser
+https://r-plumber-api.onrender.com/length?msg=from_browser
 ```
