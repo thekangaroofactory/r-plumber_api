@@ -1,12 +1,16 @@
 
 
-# -- Load package
+# ------------------------------------------------------------------------------
+# This is the definition of the Plumber API
+# ------------------------------------------------------------------------------
+
+# -- Load dependencies
 library(plumber)
 
 # -- Source code
 source("getLength.R")
 
-
+# -- notify
 cat("[INFO] Starting API ... \n")
 
 
